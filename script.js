@@ -1,4 +1,4 @@
-/* Nim Trainer by Jacob
+/* Nim Trainer by Mr. M.
  * based on this flowchart:
  * https://lucid.app/lucidchart/2018baaf-4c26-4a76-a0d5-93c97f444425/view
  */
@@ -32,7 +32,6 @@ function main(){
 
 /* playNim */
 function playNim(){
-    // alert("Playing Nim!")
     count = 0;
     while (count < 21){
         userTurn();
@@ -51,8 +50,6 @@ function playNim(){
  * @return none
  */
 function userTurn(){
-    // count += 3;
-    // alert("You counted 3, count is now " + count + ".");
     let turn = prompt("Pick a number, 1-3.");
     turn = parseInt(turn);
     if (turn < 1 || turn > 3){
@@ -72,7 +69,7 @@ function userTurn(){
  * @return none
  */
 function cpuTurn(){
-    // count += 3;
+    let turn = 0;
     if (count == 17) turn = 3;
     else if (count == 18) turn = 2;
     else if (count > 18) turn = 1;
