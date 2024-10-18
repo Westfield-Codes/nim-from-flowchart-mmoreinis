@@ -1,4 +1,4 @@
-/* Nim Trainer by Mr. M. 
+/* Nim Trainer GUI by Mr. M. 
  * based on this flowchart:
  * https://lucid.app/lucidchart/2018baaf-4c26-4a76-a0d5-93c97f444425/view
  */
